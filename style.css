@@ -1,0 +1,289 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: lightblue;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+    max-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+/*START MAIN*/
+.main{
+    width: 100%;
+}
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+}
+
+.left__side {
+    width: 100%;
+    min-height: 100vh;
+    background: #003147;
+    color: white;
+    padding: 40px 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.right__side {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    color: #003147;
+    padding: 60px 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+/*END MAIN*/
+
+
+/*START SECTION LEFT*/
+.avatar{
+    background-image: url('./asset/avatar-photo.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.avatar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    /* background-color: lightblue; */
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contacts h2 {
+    border-bottom: 2px solid white;
+    padding: 0 0 15px 0;
+    font-family: 'Aria', sans-serif;
+
+}
+
+.contacts__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contacts__icon {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+.icon__locations {
+    background-image: url('./asset/icon-location.png');
+}
+
+.icon__phone {
+    background-image: url('./asset/icon-phone.png');
+}
+.icon__email {
+    background-image: url('./asset/icon-email.png');
+}
+
+.icon__github {
+    background-image: url('./asset/icon-github.png');
+}
+
+.icon__linkedin {
+    background-image: url('./asset/icon-linkedin.png');
+}
+
+.icon__telegram {
+    background-image: url('./asset/icon-telegram.png');
+}
+
+.icon__skype {
+    background-image: url('./asset/icon-skype.png');
+}
+
+.icon__english {
+    background-image: url('./asset/icon-en.png');
+}
+
+.icon__russia {
+    background-image: url('./asset/icon-ru.png');
+}
+
+.contacts h2{
+    color: white;
+    margin: 0;
+}
+
+/*END SECTION LEFT*/
+
+
+
+/*START SECTION RIGHT*/
+.title {
+    font-weight: 500;
+    color: #003147;
+}
+.title h1{
+    font-size: 60px;
+    font-family: 'Aria', sans-serif;
+
+}
+.title h2{
+    font-size: 35px;
+    line-height: 50px;
+    font-family: 'Aria', sans-serif;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.info h2{
+    background: lightblue;
+    width: 100%;
+    padding: 0 20px;
+    font-family: 'Aria', sans-serif;
+}
+.highlight {
+    font-family: 'Aria', sans-serif;
+    font-weight: 900;
+}
+.info P{
+    padding: 0;
+    /* font-size: 16px; */
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.info__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-info {
+    height: 12px;
+    background-size: cover;
+}
+
+.icon-education {
+    background-image: url('./asset/icon-education.png');
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.skills__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill__icon {
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+}
+
+.icon__HTML {
+    background-image: url('./asset/icon-HTML.png');
+}
+
+.icon__css {
+    background-image: url('./asset/icon-css.png');
+}
+
+.icon__js {
+    background-image: url('./asset/icon-js.png');
+}
+
+.icon__ts {
+    background-image: url('./asset/icon-ts.png');
+}
+
+.icon__angular {
+    background-image: url('./asset/icon-angular.png');
+}
+
+.icon__rxjs {
+    background-image: url('./asset/icon-rxjs.svg');
+}
+
+.icon__ngrx {
+    background-image: url('./asset/icon-ngrx.svg');
+}
+
+.icon__github_dark {
+    background-image: url('./asset/icon-github.svg');
+}
+
+.icon__sass {
+    background-image: url('./asset/icon-sass.png');
+}
+
+.icon__bem {
+    background-image: url('./asset/icon-bem.png');
+}
+
+.icon__a-material {
+    background-image: url('./asset/icon-a-material.png');
+}
+
+.icon__jest {
+    background-image: url('./asset/icon-jest.png');
+}
+
+.icon__figma {
+    background-image: url('./asset/icon-figma.png');
+}
+
+.icon__ecommerce {
+    background-image: url('./asset/icon-ecommerce.png');
+}
+
+.icon__webpack {
+    background-image: url('./asset/icon-webpack.png');
+}
+
+.icon__eslint {
+    background-image: url('./asset/icon-eslint.png');
+}
+
+
+/*END SECTION RIGHT*/
+
