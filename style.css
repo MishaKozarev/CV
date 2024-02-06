@@ -1,8 +1,11 @@
+@import './icon_contacts.css';
+@import './icon_skills.css';
 *
 {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -106,40 +109,7 @@ p {
     background-size: cover;
 }
 
-.icon__locations {
-    background-image: url('./asset/icon-location.png');
-}
 
-.icon__phone {
-    background-image: url('./asset/icon-phone.png');
-}
-.icon__email {
-    background-image: url('./asset/icon-email.png');
-}
-
-.icon__github {
-    background-image: url('./asset/icon-github.png');
-}
-
-.icon__linkedin {
-    background-image: url('./asset/icon-linkedin.png');
-}
-
-.icon__telegram {
-    background-image: url('./asset/icon-telegram.png');
-}
-
-.icon__skype {
-    background-image: url('./asset/icon-skype.png');
-}
-
-.icon__english {
-    background-image: url('./asset/icon-en.png');
-}
-
-.icon__russia {
-    background-image: url('./asset/icon-ru.png');
-}
 
 .contacts h2{
     color: white;
@@ -182,8 +152,6 @@ p {
     font-weight: 900;
 }
 .info P{
-    padding: 0;
-    /* font-size: 16px; */
     font-weight: 700;
     line-height: 24px;
 }
@@ -205,7 +173,7 @@ p {
 
 .skills {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .skills__item {
@@ -220,68 +188,68 @@ p {
     background-size: cover;
 }
 
-.icon__HTML {
-    background-image: url('./asset/icon-HTML.png');
+.work {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+.work__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.work__title {
+    font-size: 28px;
+    font-weight: 900;
 }
 
-.icon__css {
-    background-image: url('./asset/icon-css.png');
+.work__subtitle {
+    color: rgb(0,49,71, .8);
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.project__list {
+    margin: 10px 0 0 0;
 }
 
-.icon__js {
-    background-image: url('./asset/icon-js.png');
+.project__title {
+    font-size: 24px;
+    font-weight: 500;
+    list-style-type: disc;
+    padding: 0 20px 0 0;
+    color: rgb(0,49,71, .9);
+}
+.project__title::before {
+    content: "\2022";
+    margin: 0 5px 0 0;
+    font-weight: 700;
+    font-size: 32px;
 }
 
-.icon__ts {
-    background-image: url('./asset/icon-ts.png');
+.project__header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.icon__angular {
-    background-image: url('./asset/icon-angular.png');
+.project__icon {
+    width: 22px;
+    height: 22px;
+    background-size: cover;
 }
 
-.icon__rxjs {
-    background-image: url('./asset/icon-rxjs.svg');
+.project__main {
+    padding: 0 0 0 20px;
 }
+.project__main h3{
+    font-weight: 400;
+    color: rgb(0,49,71, .9);
 
-.icon__ngrx {
-    background-image: url('./asset/icon-ngrx.svg');
-}
-
-.icon__github_dark {
-    background-image: url('./asset/icon-github.svg');
-}
-
-.icon__sass {
-    background-image: url('./asset/icon-sass.png');
-}
-
-.icon__bem {
-    background-image: url('./asset/icon-bem.png');
-}
-
-.icon__a-material {
-    background-image: url('./asset/icon-a-material.png');
-}
-
-.icon__jest {
-    background-image: url('./asset/icon-jest.png');
-}
-
-.icon__figma {
-    background-image: url('./asset/icon-figma.png');
-}
-
-.icon__ecommerce {
-    background-image: url('./asset/icon-ecommerce.png');
-}
-
-.icon__webpack {
-    background-image: url('./asset/icon-webpack.png');
-}
-
-.icon__eslint {
-    background-image: url('./asset/icon-eslint.png');
 }
 
 

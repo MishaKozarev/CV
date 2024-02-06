@@ -1,0 +1,63 @@
+.icon__html {
+  background-image: url('./asset/icon-html.png');
+}
+
+.icon__css {
+  background-image: url('./asset/icon-css.png');
+}
+
+.icon__js {
+  background-image: url('./asset/icon-js.png');
+}
+
+.icon__ts {
+  background-image: url('./asset/icon-ts.png');
+}
+
+.icon__angular {
+  background-image: url('./asset/icon-angular.png');
+}
+
+.icon__rxjs {
+  background-image: url('./asset/icon-rxjs.svg');
+}
+
+.icon__ngrx {
+  background-image: url('./asset/icon-ngrx.svg');
+}
+
+.icon__github_dark {
+  background-image: url('./asset/icon-github.svg');
+}
+
+.icon__sass {
+  background-image: url('./asset/icon-sass.png');
+}
+
+.icon__bem {
+  background-image: url('./asset/icon-bem.png');
+}
+
+.icon__a-material {
+  background-image: url('./asset/icon-a-material.png');
+}
+
+.icon__jest {
+  background-image: url('./asset/icon-jest.png');
+}
+
+.icon__figma {
+  background-image: url('./asset/icon-figma.png');
+}
+
+.icon__ecommerce {
+  background-image: url('./asset/icon-ecommerce.png');
+}
+
+.icon__webpack {
+  background-image: url('./asset/icon-webpack.png');
+}
+
+.icon__eslint {
+  background-image: url('./asset/icon-eslint.png');
+}

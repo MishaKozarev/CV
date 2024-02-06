@@ -1,0 +1,37 @@
+.icon__locations {
+  background-image: url('./asset/icon-location.png');
+}
+
+.icon__phone {
+  background-image: url('./asset/icon-phone.png');
+}
+.icon__email {
+  background-image: url('./asset/icon-email.png');
+}
+
+.icon__github {
+  background-image: url('./asset/icon-github.png');
+}
+
+.icon__linkedin {
+  background-image: url('./asset/icon-linkedin.png');
+}
+
+.icon__telegram {
+  background-image: url('./asset/icon-telegram.png');
+}
+
+.icon__skype {
+  background-image: url('./asset/icon-skype.png');
+}
+
+.icon__english {
+  background-image: url('./asset/icon-en.png');
+}
+
+.icon__russia {
+  background-image: url('./asset/icon-ru.png');
+}
+.icon__node {
+  background-image: url('./asset/icon-node.png');
+}
